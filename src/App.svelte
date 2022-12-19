@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<h1>Hello World!</h1>
+<h1>Funny Chat</h1>
 
 <style>
 </style>
