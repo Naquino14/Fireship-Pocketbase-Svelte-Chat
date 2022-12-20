@@ -3,7 +3,7 @@ import PocketBase from 'pocketbase'
 import { writable } from 'svelte/store'
 
 // this is the pocketbase instance. It is used to access the database.
-export const pb = new PocketBase(`http://${process.env.FUNNY_CHAT_POCKETBASE_IP}:${process.env.FUNNY_CHAT_POCKETBASE_PORT}`)
+export const pb = new PocketBase(`http://127.0.0.1:8090`)
 
 // this is the user object. its null when the user isnt logged in
 export const currentUser = writable(pb.authStore.model)
